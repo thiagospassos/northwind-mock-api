@@ -146,3 +146,11 @@ server.use(router)
 server.listen(80, () => {
     console.log('Run Auth API Server')
 })
+
+server.listen(443, () => {
+    console.log('Run Auth API Server')
+})
+
+server.listen(3000, () => {
+    console.log('Run Auth API Server')
+})
