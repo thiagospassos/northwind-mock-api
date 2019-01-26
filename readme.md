@@ -4,4 +4,6 @@ This was created for demo/testing purposes only. This is a simple Mock API lever
 
 # Running with Docker
 
-`docker run -p 4567:3000 -d thiagospassos/northwind-mock-api`
+`docker run -p xxxx:80 -d thiagospassos/northwind-mock-api:latest`
+
+Where `xxxx` is whatever port you want to expose 
